@@ -17,7 +17,7 @@ app.use(express.static('public'));
 const db = new pg.Client({
     user: "postgres",
     host: "localhost",
-    database: "my-books",
+    database: "BOOKSHELF",
     password: "[password]",
     port: 5433,});
     db.connect();
@@ -67,7 +67,7 @@ app.post('/', async (req, res) => {
     }
 });
 
-
+//// END CODE
 app.listen(port, () => {
     console.log(`Server on port ${port}`);
 });
