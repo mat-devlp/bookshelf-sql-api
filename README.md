@@ -35,7 +35,7 @@ Create a `.env` file in the root directory and add your PostgreSQL credentials:
 ```
   user: "postgres",
   host: "localhost",
-  database: "[SERVER NAME]",
+  database: "books",
   password: "[YOUR PASSWORD]",
   port: 5432,
 ```
