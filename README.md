@@ -15,8 +15,8 @@ Bookshelf is a project that allows you to maintain a collection of books stored 
 
 ### 1️⃣ Clone the repository
 ```sh
-git clone https://github.com/mat-devlp/bookshelf-sql-api.git
-cd bookshelf-sql-api
+git clone https://github.com/mat-devlp/bookshelf.git
+cd bookshelf
 ```
 
 ### 2️⃣ Install dependencies
