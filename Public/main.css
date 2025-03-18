@@ -1,0 +1,70 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e5e5f7;
+    background-size: 20px 20px;
+    background-image:  repeating-linear-gradient(0deg, #444cf7, #444cf7 1px, #e5e5f7 1px, #e5e5f7);
+    margin: 0;
+}
+
+#main {
+    width: 100%;
+    max-width: 700px;
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 10px;
+    width: 500px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25), 
+    0 4px 8px rgba(0, 0, 0, 0.15);
+   transition: all 0.3s ease;
+}
+
+#main:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3),
+                0 6px 12px rgba(0, 0, 0, 0.22);
+}
+
+#carousel {
+    max-width: 435px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(41, 38, 38, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+.carousel-item img {
+    height: fit-content;
+    width: 500px;
+    object-fit: contain;
+    max-width: 100%;
+    
+}
+
+
+form {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 8px;
+    width: 70%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 10px;
+}
