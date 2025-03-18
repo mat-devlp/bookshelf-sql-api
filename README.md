@@ -40,7 +40,7 @@ Create a `.env` file in the root directory and add your PostgreSQL credentials:
   port: 5432,
 ```
 
-## ▶️ Running the Bookshelf System
+### ▶️ Running the Bookshelf System
 Start the application using Nodemon:
 ```sh
 npm install -g nodemon  # Install nodemon globally if you haven't
@@ -49,6 +49,6 @@ nodemon index.js
 
 Your application should now be running and able to store book information retrieved from an external API.
 
-## 📡 Features
+### 📡 Features
 - Add books by name, automatically fetching and storing the book cover.
 - Retrieve the list of stored books.
