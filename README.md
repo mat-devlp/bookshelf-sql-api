@@ -1,5 +1,12 @@
+<div align="center">
+
 # 📚 BOOKSHELF
+
 ### PostgreSQL + External API Integration
+
+<img src="https://github.com/user-attachments/assets/57e71d5c-4ac4-4417-b4ec-c00f2a927d00" width="50%" />
+
+</div>
 
 ## 🚀 Overview
 Bookshelf is a project that allows you to maintain a collection of books stored in a PostgreSQL database. When a book is added by name, an external API is used to retrieve its cover image.
@@ -8,7 +15,7 @@ Bookshelf is a project that allows you to maintain a collection of books stored 
 
 ### 1️⃣ Clone the repository
 ```sh
-git clone https://github.com/yourusername/bookshelf-sql-api.git
+git clone https://github.com/mat-devlp/bookshelf-sql-api.git
 cd bookshelf-sql-api
 ```
 
@@ -18,7 +25,7 @@ npm i
 ```
 
 ### 3️⃣ Set up PostgreSQL database
-Ensure you have PostgreSQL installed and running. Create a database named `bookshelf` and run the following SQL command to create the necessary table:
+Ensure you have PostgreSQL installed and running. Create a database named `BOOKSHELF` and run the following SQL command to create the necessary table:
 
 ```sql
 CREATE TABLE books (
@@ -30,17 +37,17 @@ CREATE TABLE books (
 ```
 
 ### 4️⃣ Configure database connection
-Create a `.env` file in the root directory and add your PostgreSQL credentials:
+Add your PostgreSQL credentials in index.js:
 
 ```
   user: "postgres",
   host: "localhost",
-  database: "books",
+  database: "BOOKSHELF",
   password: "[YOUR PASSWORD]",
-  port: 5432,
+  port: 5433
 ```
 
-### ▶️ Running the Bookshelf System
+## ▶️ Running the Bookshelf System
 Start the application using Nodemon:
 ```sh
 npm install -g nodemon  # Install nodemon globally if you haven't
@@ -49,6 +56,6 @@ nodemon index.js
 
 Your application should now be running and able to store book information retrieved from an external API.
 
-### 📡 Features
+## 📡 Features
 - Add books by name, automatically fetching and storing the book cover.
 - Retrieve the list of stored books.
